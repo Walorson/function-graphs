@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    overflow: hidden;
+}
+canvas {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.controller {
+    position: absolute;
+    top: 0; left: 0;
+    color: white;
+    font-family: sans-serif;
+}
+.controller label {
+    display: flex;
+    align-items: center;
+}
+input[type=text] {
+    padding: 5px;
+    font-family: inherit;
+    font-size: inherit;
+    width: 200px;
+}
